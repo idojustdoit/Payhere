@@ -152,6 +152,7 @@ const Issuespage = () => {
           .map((issue, id) => {
             return (
               <Card key={id}>
+               <Title>{userInfo}</Title>
                 <img
                   alt=""
                   src={issue.user.avatar_url}
